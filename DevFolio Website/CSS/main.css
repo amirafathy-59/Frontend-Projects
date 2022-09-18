@@ -1,0 +1,258 @@
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(4, 4, 4, 0.5);
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.main-color{
+    color:rgb(65, 146, 233) !important;
+}
+.navbar{
+   background-color:  rgb(4, 4, 4);
+}
+#home a:hover{
+    color:  rgb(65, 146, 233);
+ }
+header h1{
+    font-size: 75px !important;
+}
+.header-caption h2::after{
+   content: "|";
+   animation-name: typing;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes typing{
+    0%{content: "P|"}
+    3%{content: "Ph|"}
+    6%{content: "Pho|"}
+    9%{content: "Phot|"}
+    12%{content: "Photo|"}
+    15%{content: "Photog|"}
+    18%{content: "Photog|"}
+    21%{content: "Photogr|"}
+    24%{content: "Photogra|"}
+    27%{content: "Photograp|"}
+    30%{content: "Photograph|"}
+    33%{content: "Photographe|"}
+    36%{content: "Photographer|"}
+    39%{content: "Photographe|"}
+    42%{content: "Photograph|"}
+    45%{content: "Photograp|"}
+    48%{content: "Photogra|"}
+    51%{content: "Photogr|"}
+    54%{content: "Photog|"}
+    57%{content: "Photo|"}
+    60%{content: "Phot|"}
+    63%{content: "Pho|"}
+    66%{content: "Ph|"}
+    69%{content: "P|"}
+    72%{content: "|"}
+    
+
+    75%{content: "D|"}
+    78%{content: "De|"}
+    81%{content: "Dev|"}
+    84%{content: "Deve|"}
+    87%{content: "Devel|"}
+    90%{content: "Develo|"}
+    93%{content: "Develop|"}
+    97%{content: "Develope|"}
+    100%{content: "Developer|"}
+    103%{content: "Develope|"}
+    106%{content: "Develop|"}
+    109%{content: "Develo|"}
+    112%{content: "Devel|"}
+    115%{content: "Deve|"}
+    118%{content: "Dev|"}
+    121%{content: "De|"}
+    124%{content: "D|"}
+    127%{content: "|"}
+
+    
+    130%{content: "F|"}
+    133%{content: "Fre|"}
+    137%{content: "Free|"}
+    140%{content: "Freel|"}
+    143%{content: "Freela|"}
+    147%{content: "Freelan|"}
+    150%{content: "Freelanc|"}
+    153%{content: "Freelance|"}
+    157%{content: "Freelancer|"}
+    160%{content: "Freelance|"}
+    163%{content: "Freelanc|"}
+    166%{content: "Freelan|"}
+    169%{content: "Freela|"}
+    172%{content: "Freel|"}
+    175%{content: "Free|"}
+    178%{content: "Fre|"}
+    191%{content: "Fr|"}
+    194%{content: "F|"}
+    197%{content: "|"}
+   
+}
+#about h3{
+  
+    position: relative;
+ 
+}
+
+#about h3::after{
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: rgb(65, 146, 233);
+    position: absolute;
+    top: 128%;
+   left:1%;
+}
+#services .p-after{
+    position: relative;
+}
+
+#services .p-after::after{
+    content: "";
+    width: 7%;
+    height: 6px;
+    background-color: rgb(65, 146, 233);
+    position: absolute;
+    top: 55%;
+   left:47%;
+}
+#portofolio .p-after{
+    position: relative;
+}
+#portofolio .p-after::after{
+    content: "";
+    width: 7%;
+    height: 6px;
+    background-color: rgb(65, 146, 233);
+    position: absolute;
+    top: 55%;
+   left:47%;
+}
+#contact .h-after{
+    position: relative;
+}
+#contact .h-after::after{
+    content: "";
+    width: 22%;
+    height: 6px;
+    background-color: rgb(65, 146, 233);
+    position: absolute;
+    top: 81%;
+   left:7%;
+}
+#blog .p-after{
+    position: relative;
+}
+#blog .p-after::after{
+    content: "";
+    width: 7%;
+    height: 6px;
+    background-color: rgb(65, 146, 233);
+    position: absolute;
+    top: 55%;
+   left:47%;
+}
+#services .service{
+    border-radius: 20px;
+  
+}
+.service i{
+   
+    border-radius: 50%;
+    border: 8px solid rgb(65, 146, 233);
+    padding: 40px;
+    transition: all 1s;
+}
+.service:hover i{
+    background-color: rgb(65, 146, 233);
+    border-radius: 50%;
+    border: 8px solid rgb(205, 225, 248);
+   color: white;
+}
+#counting{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.counting-layer{
+   background-color: rgba(8, 92, 187,0.7);
+}
+.count i{
+   
+    border-radius: 50%;
+    border: 10px solid rgb(205, 225, 248);
+    padding: 30px;
+    
+}
+#users{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.users-layer{
+   background-color: rgba(8, 92, 187,0.7);
+   height: 100%;
+}
+
+#blog .divUP{
+    background-color:rgb(65, 146, 233) ;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid  rgb(65, 146, 233);
+    width: 32%;
+    height: 12%;
+    font-size: 14px;
+}
+#contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.contact-layer{
+    background-color: rgba(8, 92, 187,0.7);
+    height: 100%;
+ }
+ #contact button{
+    background-color: rgb(8, 92, 187);
+    border-radius: 34px;
+    border: 1px solid  rgb(8, 92, 187);
+    width: 32%;
+    height: 12%;
+    font-size: 18px;
+    margin-left: 137px;
+ }
+ #contact button:hover {
+    background-color: rgba(8, 92, 187,0.7);
+    border-radius: 34px;
+    border: 8px solid rgb(205, 225, 248);
+   color: white;
+}
+.icon{
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 3px solid  rgb(8, 92, 187);
+}
+.icon:hover {
+   background-color:rgb(65, 146, 233) ;
+   color: white;
+   
+   border: 3px solid  rgb(205, 225, 248);
+   
+}
+#footer{
+    background-color: rgb(8, 92, 187);
+}
